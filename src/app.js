@@ -5,4 +5,4 @@ app.get('/',(_req, res) => {
     res.status(200).json({ name: process.env.MYSQLDATABASE });
 });
 
-export default app; 
+module.exports = app; 
